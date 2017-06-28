@@ -23,7 +23,7 @@ export class HeroesComponent implements OnInit {
                 currentHP: 100,
                 maxMana: 20,
                 currentMana: 20,
-                portrait: '../assets/images/portrait/hashiera.png',
+                portrait: './assets/portraits/hashiera.png',
                 strenght: 16,
                 dexterity: 16,
                 intelligence: 12
@@ -34,7 +34,7 @@ export class HeroesComponent implements OnInit {
                 currentHP: 75,
                 maxMana: 30,
                 currentMana: 30,
-                portrait: '../assets/images/portrait/shana.png',
+                portrait: './assets/portraits/shana.png',
                 strenght: 12,
                 dexterity: 18,
                 intelligence: 12

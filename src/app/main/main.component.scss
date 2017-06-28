@@ -2,7 +2,7 @@
 
 .main {
     color: $primaryLight;
-    display: inline-block;
+    //display: inline-block;
 }
 
 .side-menu {
@@ -32,4 +32,8 @@
 }
 .link:hover {
     color: $secondaryLight;
+}
+
+.row {
+    display: inline-flex;
 }
