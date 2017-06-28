@@ -1,0 +1,11 @@
+@import '../global.scss';
+
+.header {
+    color:$secondaryLight;
+    background-color: $primaryDark;
+    text-align: center;
+}
+
+.banner {
+    max-width: 1024px;
+}

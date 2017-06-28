@@ -1,0 +1,35 @@
+@import '../global.scss';
+
+.main {
+    color: $primaryLight;
+    display: inline-block;
+}
+
+.side-menu {
+    //float:left;
+    width: 200px;
+}
+
+.navbar {
+    padding: 20px;
+    border-right: 2px solid $primaryDark;
+    border-radius: 12px;
+    min-height: 800px;
+}
+
+.list {
+    list-style: none;
+}
+
+.list-item {
+    margin-top: 22px; 
+}
+
+.link {
+    text-decoration: none;
+    font-size: 18px;
+    color: $primaryLight;
+}
+.link:hover {
+    color: $secondaryLight;
+}
