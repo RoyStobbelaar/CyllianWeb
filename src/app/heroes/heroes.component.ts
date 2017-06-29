@@ -38,6 +38,28 @@ export class HeroesComponent implements OnInit {
                 strenght: 12,
                 dexterity: 18,
                 intelligence: 12
+            },{
+                name: 'Thazahar',
+                class: ClassType.Barbarian,
+                maxHP: 125,
+                currentHP: 125,
+                maxMana: 10,
+                currentMana: 10,
+                portrait: './assets/portraits/hashiera.png',
+                strenght: 18,
+                dexterity: 14,
+                intelligence: 8
+            },{
+                name: 'Zhixis',
+                class: ClassType.Warlock,
+                maxHP: 70,
+                currentHP: 70,
+                maxMana: 40,
+                currentMana: 40,
+                portrait: './assets/portraits/shana.png',
+                strenght: 10,
+                dexterity: 16,
+                intelligence: 16
             });
     }
 

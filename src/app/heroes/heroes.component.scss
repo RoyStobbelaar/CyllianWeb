@@ -4,4 +4,13 @@
 .heroes {
     padding: 20px;
     color: $primaryLight;
+    border-top: 1px solid black;
+    border-radius: 20px;
+}
+
+.title {
+    padding-left: 20px;
+    color: $secondaryLight;
+    //border-bottom: 1px solid black;
+    border-radius: 20px;
 }

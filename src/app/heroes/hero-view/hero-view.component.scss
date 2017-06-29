@@ -3,8 +3,23 @@
 .hero-view {
     color: $primaryLight;
 
-    padding: 20px;
+    padding: 0 10px 20px 20px;
     //border: 1px solid black;
     height: 200px;
+    width: 250px;
+    border: 1px solid #111;
+    background-color: #202020;
+}
+.hero-view:hover {
+    background-color: #151515;
+}
 
+.portrait {
+    //float: right;
+    display: inline;
+}
+
+.stats{
+    display: inline-block;
+    //float: left;
 }

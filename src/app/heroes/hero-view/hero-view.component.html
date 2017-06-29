@@ -4,15 +4,19 @@
         {{hero.name}}
     </h3>
 
+        <div class='stats'>
+        <div>Health: <span style='color:red'> {{hero.currentHP}}/{{hero.maxHP}} </span> </div>
+
+        <div>Mana: <span style='color:lightblue'> {{hero.currentMana}}/{{hero.maxMana}} </span> </div>
+
+        <div>Str: {{hero.strenght}}</div>
+
+        <div>Dex: {{hero.dexterity}}</div>
+        <div>Int: {{hero.intelligence}}</div>
+    </div>
+
     <img class='portrait' src="{{hero.portrait}}">
 
-    <div style='color:red'>Health: {{hero.currentHP}}/{{hero.maxHP}}</div>
 
-    <div style='color:#aaf'>Mana: {{hero.currentMana}}/{{hero.maxMana}}</div>
-
-    <div>Str: {{hero.strength}}</div>
-
-    <div>Dex: {{hero.dexterity}}</div>
-    <div>Int: {{hero.intelligence}}</div>
 
 </div>

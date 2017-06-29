@@ -1,15 +1,11 @@
-<div class='heroes'>
-
-
+<div class='title'>
+<h1>
 {{title}}
-
-
-<div *ngFor='let hero of heroes'>
-
-    <hero-view [hero]=hero></hero-view>
-
+</h1>
 </div>
 
-
+<div class='heroes'>
+    <div *ngFor='let hero of heroes' style='display:inline-flex;'>
+        <hero-view [hero]=hero style='padding:5px;'></hero-view>
+    </div>
 </div>
-
