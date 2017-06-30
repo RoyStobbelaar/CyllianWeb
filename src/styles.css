@@ -1,8 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 
 body {
-    background-color: #111;
-    color:#eef;
+    background-color: #0a0a0a;
+    color:#eeeeff;
 }
 
 .container {
@@ -10,8 +10,8 @@ body {
     margin-right: auto;
     width: 1248px;
     border-radius: 10px;
-    border-left: 1px solid #Fa1020;
-    border-right: 1px solid #Fa1020;
+    border-left: 1px solid #FF0000;
+    border-right: 1px solid #FF0000;
     min-height: 800px;
-    background-color: #222;
+    background-color: #222222;
 }

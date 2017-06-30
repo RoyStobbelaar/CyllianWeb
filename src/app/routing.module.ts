@@ -8,13 +8,15 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { ExploreComponent } from './explore/explore.component';
 import { TrainComponent } from './train/train.component';
 import { CraftComponent } from './craft/craft.component';
+import { HeroDetailComponent } from './heroes/hero-detail/hero-detail.component';
 
 const appRoutes: Routes = [
     { path: '', component: ContentComponent },
     { path: 'heroes', component: HeroesComponent },
     { path: 'explore', component: ExploreComponent },
     { path: 'train', component: TrainComponent },
-    { path: 'craft', component: CraftComponent }
+    { path: 'craft', component: CraftComponent },
+    { path: 'heroes/:id', component: HeroDetailComponent }
 ]
 
 @NgModule({

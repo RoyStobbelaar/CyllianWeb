@@ -8,6 +8,7 @@ import { HeroViewComponent } from './heroes/hero-view/hero-view.component';
 import { ExploreComponent } from './explore/explore.component';
 import { TrainComponent } from './train/train.component';
 import { CraftComponent } from './craft/craft.component';
+import { HeroDetailComponent } from './heroes/hero-detail/hero-detail.component';
 
 import { RoutingModule } from './routing.module';
 
@@ -21,6 +22,7 @@ import { RoutingModule } from './routing.module';
     ExploreComponent,
     TrainComponent,
     CraftComponent,
+    HeroDetailComponent,
   ],
   imports: [
     BrowserModule,

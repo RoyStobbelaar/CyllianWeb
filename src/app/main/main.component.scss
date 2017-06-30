@@ -2,12 +2,19 @@
 
 .main {
     color: $primaryLight;
+    background-color: $secondaryDark;
     //display: inline-block;
 }
 
 .side-menu {
     //float:left;
     width: 200px;
+}
+
+.title {
+        padding-left: 20px;
+    color: $secondaryLight;
+    border-radius: 20px;
 }
 
 .navbar {
@@ -19,6 +26,11 @@
 
 .list {
     list-style: none;
+    border-top: 1px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 200px;
+    margin: -20px;
 }
 
 .list-item {

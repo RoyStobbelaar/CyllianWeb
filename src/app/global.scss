@@ -1,5 +1,14 @@
-$primaryDark: #111;
-$secondaryDark: #222;
+$primaryDark: #101010;
+$secondaryDark: #1f1f1f;
 
-$primaryLight: #Da0000;
+$primaryLight: #AF0000;
 $secondaryLight: #Fa1020;
+
+.divider {
+    width: 200px;
+    border-bottom: 1px solid #990000;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    display: block;
+    margin-left: -40px;
+}

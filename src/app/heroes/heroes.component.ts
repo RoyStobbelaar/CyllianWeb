@@ -11,12 +11,13 @@ export class HeroesComponent implements OnInit {
 
     public heroes: Hero[];
     public hero1: Hero;
+    public selectedHero: Hero = null;
 
     ngOnInit(): void {
         //Create some heroes to show
         this.heroes = new Array();
         this.heroes.push(
-             {
+            {
                 name: 'Hashiera',
                 class: ClassType.Warrior,
                 maxHP: 100,
@@ -26,8 +27,9 @@ export class HeroesComponent implements OnInit {
                 portrait: './assets/portraits/hashiera.png',
                 strenght: 16,
                 dexterity: 16,
-                intelligence: 12
-            },{
+                intelligence: 12,
+                id: 1,
+            }, {
                 name: 'Shana',
                 class: ClassType.Rogue,
                 maxHP: 75,
@@ -37,8 +39,9 @@ export class HeroesComponent implements OnInit {
                 portrait: './assets/portraits/shana.png',
                 strenght: 12,
                 dexterity: 18,
-                intelligence: 12
-            },{
+                intelligence: 12,
+                id: 2,
+            }, {
                 name: 'Thazahar',
                 class: ClassType.Barbarian,
                 maxHP: 125,
@@ -48,8 +51,9 @@ export class HeroesComponent implements OnInit {
                 portrait: './assets/portraits/hashiera.png',
                 strenght: 18,
                 dexterity: 14,
-                intelligence: 8
-            },{
+                intelligence: 8,
+                id: 3,
+            }, {
                 name: 'Zhixis',
                 class: ClassType.Warlock,
                 maxHP: 70,
@@ -59,10 +63,16 @@ export class HeroesComponent implements OnInit {
                 portrait: './assets/portraits/shana.png',
                 strenght: 10,
                 dexterity: 16,
-                intelligence: 16
+                intelligence: 16,
+                id: 4,
+
             });
     }
 
-public title: string = 'This is the hero overview';
+    public title: string = 'This is the hero overview';
 
+    public selectHero(hero:Hero){
+        console.log('SELECT HERO');
+        this.selectedHero = hero;
+    }
 }

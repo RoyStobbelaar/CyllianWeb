@@ -1,11 +1,19 @@
 <div class='title'>
-<h1>
-{{title}}
-</h1>
+    <h1 *ngIf='!selectedHero'>
+        {{title}}
+    </h1>
+    <h1 *ngIf='selectedHero'>
+        <a (click)='selectedHero = null;'><<</a>
+        Details for {{selectedHero.name}}
+    </h1>
 </div>
 
-<div class='heroes'>
-    <div *ngFor='let hero of heroes' style='display:inline-flex;'>
+<div class='heroes' *ngIf="!selectedHero">
+    <div *ngFor='let hero of heroes' style='display:inline-flex;' (click)="selectHero(hero)">
         <hero-view [hero]=hero style='padding:5px;'></hero-view>
     </div>
+</div>
+
+<div *ngIf='selectedHero'>
+    <hero-detail [hero]=selectedHero></hero-detail>
 </div>

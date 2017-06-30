@@ -4,6 +4,7 @@ export enum ClassType {
 
 export class Hero {
 
+    public id: number;
     public name: string;
     public class: ClassType;
     public maxHP: number;
