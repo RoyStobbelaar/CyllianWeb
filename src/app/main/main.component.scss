@@ -1,36 +1,40 @@
 @import '../global.scss';
 
 .main {
-    color: $primaryLight;
-    background-color: $secondaryDark;
+    color: $primaryRed;
+    //background-color: $primaryBlack;
     //display: inline-block;
 }
 
 .side-menu {
     //float:left;
     width: 200px;
+    background-color: $primaryBlack;
 }
 
 .title {
         padding-left: 20px;
-    color: $secondaryLight;
+    color: $primaryRed;
     border-radius: 20px;
 }
 
 .navbar {
     padding: 20px;
-    border-right: 2px solid $primaryDark;
-    border-radius: 12px;
-    min-height: 800px;
+    border-right: 2px solid $secondaryBlack;
+    //border-radius: 12px;
+    border-top-right-radius: 12px;
 }
 
 .list {
     list-style: none;
-    border-top: 1px solid black;
+    border-top: 1px solid $primaryBlack;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     width: 200px;
     margin: -20px;
+        background-color: $secondaryBlack;
+    min-height: 800px;
+
 }
 
 .list-item {
@@ -40,10 +44,10 @@
 .link {
     text-decoration: none;
     font-size: 18px;
-    color: $primaryLight;
+    color: $primaryRed;
 }
 .link:hover {
-    color: $secondaryLight;
+    color: $secondaryRed;
 }
 
 .row {

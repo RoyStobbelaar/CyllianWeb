@@ -1,18 +1,18 @@
 @import '../../global.scss';
 
 .hero-view {
-    color: $primaryLight;
+    color: $primaryRed;
 
     padding-left: 10px;
     //padding: 0 10px 20px 20px;
     //border: 1px solid black;
     height: 150px;
     width: 250px;
-    border: 1px solid #111;
-    background-color: #202020;
+    border: 1px solid $primaryBlack;
+    background-color: $primaryGrey;
 }
 .hero-view:hover {
-    background-color: #181818;
+    background-color: $secondaryGrey;
 }
 
 .title {

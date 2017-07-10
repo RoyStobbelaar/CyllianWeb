@@ -1,16 +1,28 @@
 @import '../global.scss';
 
+.heroescontainer {
+    background-color: $secondaryBlack;
+    border-radius: 12px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 14px;
+    // background-color: $secondaryBlack;
+}
 
 .heroes {
     padding: 20px;
-    color: $primaryLight;
+    color: $primaryRed;
     border-top: 1px solid black;
     border-radius: 20px;
+    background-color: $primaryGrey;
 }
 
 .title {
     padding-left: 20px;
-    color: $secondaryLight;
+    color: $primaryRed;
     //border-bottom: 1px solid black;
     border-radius: 20px;
 }
