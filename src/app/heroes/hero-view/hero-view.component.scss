@@ -3,9 +3,10 @@
 .hero-view {
     color: $primaryLight;
 
-    padding: 0 10px 20px 20px;
+    padding-left: 10px;
+    //padding: 0 10px 20px 20px;
     //border: 1px solid black;
-    height: 200px;
+    height: 150px;
     width: 250px;
     border: 1px solid #111;
     background-color: #202020;
@@ -14,12 +15,24 @@
     background-color: #181818;
 }
 
-.portrait {
-    //float: right;
-    display: inline;
+.title {
+    margin: 0px;
+    margin-bottom: 20px;
 }
 
-.stats{
-    display: inline-block;
+.portrait {
+    //float: right;
+    //display: inline;
+    margin-top: -40px;
+    margin-left: 50px;
+}
+
+.stats {
+    display: block;
+    //display: inline-block;
     //float: left;
+}
+
+.content {
+    display: flex;
 }

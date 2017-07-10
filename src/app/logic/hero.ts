@@ -1,6 +1,6 @@
-export enum ClassType {
-    Warrior,Barbarian, Knight, Assassin, Ranger, Rogue, Sorcerer, Wizard, Warlock, Priest
-}
+ export enum ClassType {
+     Warrior,Barbarian, Knight, Assassin, Ranger, Rogue, Sorcerer, Wizard, Warlock, Priest
+ }
 
 export class Hero {
 
@@ -15,5 +15,6 @@ export class Hero {
     public strenght: number;
     public dexterity: number;
     public intelligence: number;
-
+    public level: number;
+    public experience: number;
 }

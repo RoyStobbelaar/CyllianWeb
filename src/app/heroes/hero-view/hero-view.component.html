@@ -1,20 +1,19 @@
 <div class='hero-view'>
 
-    <h3>
+    <h3 class='title'>
         {{hero.name}}
     </h3>
 
-        <div class='stats'>
-        <div>Health: <span style='color:red'> {{hero.currentHP}}/{{hero.maxHP}} </span> </div>
+<div class='content'>
+    <div class='stats'>
 
-        <div>Mana: <span style='color:lightblue'> {{hero.currentMana}}/{{hero.maxMana}} </span> </div>
-
-        <div>Str: {{hero.strenght}}</div>
-
-        <div>Dex: {{hero.dexterity}}</div>
-        <div>Int: {{hero.intelligence}}</div>
+        <div> Lvl {{ hero.level }} </div>
+        <div> {{ hero.class | classname }}</div>
+        <div> <span style='color:red'> {{ hero | hp }} </span> </div>
+        <div> <span style='color:lightblue'> {{ hero | mp }} </span> </div>
     </div>
 
-    <img class='portrait' src="{{hero.portrait}}">
+        <img class='portrait' src="{{hero.portrait}}">
+</div>
 
 </div>

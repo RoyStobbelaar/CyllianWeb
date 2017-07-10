@@ -29,6 +29,8 @@ export class HeroesComponent implements OnInit {
                 dexterity: 16,
                 intelligence: 12,
                 id: 1,
+                level: 1,
+                experience: 0,
             }, {
                 name: 'Shana',
                 class: ClassType.Rogue,
@@ -41,6 +43,8 @@ export class HeroesComponent implements OnInit {
                 dexterity: 18,
                 intelligence: 12,
                 id: 2,
+                                level: 1,
+                experience: 0,
             }, {
                 name: 'Thazahar',
                 class: ClassType.Barbarian,
@@ -53,6 +57,8 @@ export class HeroesComponent implements OnInit {
                 dexterity: 14,
                 intelligence: 8,
                 id: 3,
+                                level: 1,
+                experience: 0,
             }, {
                 name: 'Zhixis',
                 class: ClassType.Warlock,
@@ -65,6 +71,8 @@ export class HeroesComponent implements OnInit {
                 dexterity: 16,
                 intelligence: 16,
                 id: 4,
+                                level: 1,
+                experience: 0,
 
             });
     }

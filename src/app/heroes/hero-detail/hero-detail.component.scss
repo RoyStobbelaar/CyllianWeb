@@ -1,0 +1,31 @@
+@import '../../global.scss';
+
+.content {
+
+border-top: 1px solid black;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+    //border: 1px solid #111111;
+    background-color: #202020;
+    padding: 20px;
+
+}
+
+.portrait {
+float: right;
+}
+
+.details {
+display: inline-block;
+}
+
+//Display upper information
+.info {
+    font-size: 20px;
+    color: $primaryLight;
+}
+
+//Display stats
+.stats {
+
+}
