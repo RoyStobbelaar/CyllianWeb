@@ -9,7 +9,7 @@
 .side-menu {
     //float:left;
     width: 200px;
-    background-color: $primaryBlack;
+    background-color: $secondaryBlack;
 }
 
 .title {
@@ -20,9 +20,9 @@
 
 .navbar {
     padding: 20px;
-    border-right: 2px solid $secondaryBlack;
+    border-right: 2px solid $borderRed;
     //border-radius: 12px;
-    border-top-right-radius: 12px;
+    //border-top-right-radius: 12px;
 }
 
 .list {
@@ -32,7 +32,7 @@
     border-top-right-radius: 20px;
     width: 200px;
     margin: -20px;
-        background-color: $secondaryBlack;
+    background-color: $primaryGrey;
     min-height: 800px;
 
 }
