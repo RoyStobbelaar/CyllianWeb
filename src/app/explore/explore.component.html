@@ -1,5 +1,14 @@
 <div class='explore'>
 
-{{title}}
+    <div class='title'>
+        <div class='title'>
+            {{title}}
+        </div>
+    </div>
 
+        <div class='area'>
+    <div *ngFor='let area of exploreAreas'>
+        <explorearea-view [area]=area></explorearea-view>
+    </div>
+        </div>
 </div>

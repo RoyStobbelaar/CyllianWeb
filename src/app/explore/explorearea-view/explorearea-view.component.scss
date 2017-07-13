@@ -1,0 +1,27 @@
+@import '../../global.scss';
+
+.area {
+    border: 1px solid $borderRed;
+    padding: 2px;
+    display: inline-flex;
+    width: 100%;
+    margin: 2px;
+    background-color: $primaryGrey;
+    transition: background-color 1s;
+}
+.area:hover {
+    background-color: $secondaryGrey;
+}
+
+.image {
+    height: 120px;
+    width: 200px;
+}
+
+.info {
+    padding: 4px;
+}
+
+.title {
+    display: inline;
+}

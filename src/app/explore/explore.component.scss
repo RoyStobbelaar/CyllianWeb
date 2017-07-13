@@ -1,8 +1,28 @@
 @import '../global.scss';
 
-
 .explore {
-    color: $primaryRed;
-        padding: 20px;
+    background-color: $secondaryBlack;
+    //border-radius: 12px;
+        min-height: $contentHeight;
 
+}
+
+.title {
+    padding-left: 20px;
+    color: $primaryRed;
+    //border-bottom: 1px solid black;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 14px;
+    // background-color: $secondaryBlack;
+}
+
+.area {
+        padding: 20px;
+    color: $primaryRed;
+    border-top: 1px solid black;
+    border-radius: 20px;
+    background-color: $primaryGrey;
+    width: $contentWidth;
 }

@@ -33,7 +33,7 @@
     width: 200px;
     margin: -20px;
     background-color: $primaryGrey;
-    min-height: 800px;
+    min-height: $menuHeight;
 
 }
 
@@ -52,4 +52,8 @@
 
 .row {
     display: inline-flex;
+}
+
+.content {
+        min-height: $contentHeight;
 }

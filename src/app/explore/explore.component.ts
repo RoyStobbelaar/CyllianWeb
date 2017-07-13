@@ -25,7 +25,7 @@ export class ExploreComponent implements OnInit {
                 maxAmountOfHeroes: 4
             }, {
                 imagePath: './assets/area/cave.png',
-                areaName: 'Cave of Ttrials',
+                areaName: 'Cave of Trials',
                 areaLevel: 2,
                 areaLevelRequirement: 1,
                 areaClassRequirement: 'None',
