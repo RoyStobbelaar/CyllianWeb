@@ -10,6 +10,7 @@ import { TrainComponent } from './train/train.component';
 import { CraftComponent } from './craft/craft.component';
 import { HeroDetailComponent } from './heroes/hero-detail/hero-detail.component';
 import { ExploreAreaViewComponent } from './explore/explorearea-view/explorearea-view.component';
+import { CraftViewComponent } from './craft/craft-view/craft-view.component';
 import { ClassNamePipe } from './UI/pipe/classname-pipe';
 import { MpPipe } from './UI/pipe/mp-pipe';
 import { HpPipe } from './UI/pipe/hp-pipe';
@@ -26,6 +27,7 @@ import { RoutingModule } from './routing.module';
     HeroViewComponent,
     ExploreComponent,
     ExploreAreaViewComponent,
+    CraftViewComponent,
     TrainComponent,
     CraftComponent,
     HeroDetailComponent,

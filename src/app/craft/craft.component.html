@@ -1,3 +1,15 @@
 <div class='craft'>
-    {{title}}
+    <div class='title'>
+        <div class='title'>
+            {{title}}
+        </div>
     </div>
+    <div class='area'>
+        <!--Show materials-->
+        <div class='material-bar'>
+            <div *ngFor='let material of materials'>
+                <material-view [material]=material></material-view>
+            </div>
+        </div>
+    </div>
+</div>
