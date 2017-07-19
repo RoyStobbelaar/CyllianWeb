@@ -1,4 +1,4 @@
-<div class='heroescontainer'>
+<div class='heroescontainer' *ngIf="!loading">
     <div class='title'>
         <div class='title' *ngIf='!selectedHero'>
             {{title}}
@@ -19,4 +19,10 @@
     <div *ngIf='selectedHero'>
         <hero-detail [hero]=selectedHero></hero-detail>
     </div>
+</div>
+
+<div *ngIf="loading">
+<h1>
+    Hero's are loading!
+</h1>
 </div>

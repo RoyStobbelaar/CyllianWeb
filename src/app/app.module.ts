@@ -15,6 +15,8 @@ import { ClassNamePipe } from './UI/pipe/classname-pipe';
 import { MpPipe } from './UI/pipe/mp-pipe';
 import { HpPipe } from './UI/pipe/hp-pipe';
 import { ExperiencePipe } from './UI/pipe/experience-pipe';
+import { HttpModule } from '@angular/http';
+import { HeroService } from './services/hero.service';
 
 import { RoutingModule } from './routing.module';
 
@@ -38,9 +40,10 @@ import { RoutingModule } from './routing.module';
   ],
   imports: [
     BrowserModule,
-    RoutingModule
+    RoutingModule,
+    HttpModule
   ],
-  providers: [],
+  providers: [HeroService],
   bootstrap: [MainComponent]
 })
 export class AppModule { }
