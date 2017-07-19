@@ -8,7 +8,7 @@
     <div class='stats'>
 
         <div> Lvl {{ hero.level }} </div>
-        <div> {{ hero.class | classname }}</div>
+        <div> {{ hero.class[0] }}</div>
         <div> <span style='color:red'> {{ hero | hp }} </span> </div>
         <div> <span style='color:lightblue'> {{ hero | mp }} </span> </div>
     </div>

@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Hero } from '../../logic/hero';
 
 @Component({
@@ -7,8 +7,12 @@ import { Hero } from '../../logic/hero';
     styleUrls: ['hero-view.component.scss']
 })
 
-export class HeroViewComponent {
-    
+export class HeroViewComponent implements OnInit{
+
     @Input() hero: Hero;
+
+        ngOnInit(): void {
+        console.log(this.hero);
+    }
 
 }

@@ -6,6 +6,6 @@ import { Hero } from "app/logic/hero";
 export class HpPipe implements PipeTransform {
     transform(value: Hero): any {
 
-        return value.currentHP + "/" + value.maxHP;
+        return value.currentHp + "/" + value.maxHp;
     }
 }
