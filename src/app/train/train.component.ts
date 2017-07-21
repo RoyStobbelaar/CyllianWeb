@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
     selector: 'train',
@@ -6,6 +6,12 @@ import { Component } from '@angular/core';
     templateUrl: './train.component.html'
 })
 
-export class TrainComponent {
-    public title: string = 'This is the training component! Lets get to it!';
+export class TrainComponent implements OnInit{
+
+    public title: string = 'This is the crafting section';
+
+    ngOnInit(): void {
+        
+
+    }
 }

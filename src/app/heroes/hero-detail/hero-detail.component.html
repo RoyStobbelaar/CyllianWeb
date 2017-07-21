@@ -9,7 +9,7 @@
 
                 {{ hero.name }}
             </h2>
-                Level {{ hero.level }} {{ hero.class | classname }}
+                Level {{ hero.level }} {{ hero.class[0] }}
             </div>
 
             <div> <span style='color:red'> {{ hero | hp }} </span> </div>
@@ -33,7 +33,7 @@
             </div>
 
             <div>
-                Strength: {{ hero.strenght }}
+                Strength: {{ hero.strength }}
             </div>
             <div>
                 Dexterity: {{ hero.dexterity }}
@@ -46,9 +46,30 @@
 
     </div>
 
+</div>
 
+<!-- Equipment -->
+<div class="equipment">
+
+    <div class="equipment-list">
+        <ul>
+            <li>
+                Hands: Legendary gaunlets
+            </li>
+            <li>
+                Head: Legendary hood
+            </li>
+            <li>
+                Weapon: Legendary sword
+            </li>
+        </ul>
+    </div>
 
 </div>
+
+<!-- Inventory -->
+
+<!-- Skills -->
 
 <div *ngIf="!hero">
     <h1>No hero selected</h1>
